@@ -20,36 +20,32 @@
     <!---STart Nav-->
     <section class="nav-section container-fluid">
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <img class="img-fluid" src="img/lawyer-logo.png" alt="">
+            <img class="img-fluid slide-in-right" src="img/lawyer-logo.png" alt="">
             <a class="navbar-brand" href="#">مكتب المحامي</a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <div class="collapse navbar-collapse slide-in-right" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">الخدمات القانونية</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                        </div>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#servicesection" >الخدمات القانونية</a>
+             
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">من نحن</a>
+                        <a class="nav-link" href="#team">من نحن</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">الاسئلة الشائعة </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">الاتصال بنا </a>
+                        <a class="nav-link" href="#contact">الاتصال بنا </a>
                     </li>
                 </ul>
 
@@ -71,33 +67,17 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <p> يقدم <span> مكتب الاستاذ </span> كافة الخدمات القانونية </p>
-                    <button class="btn  ">الاتصال بنا<i class="fas fa-info-circle"></i></button>
-                    <div class="  intro-social-links">
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-facebook-square"></i></a>
-                        <a href=""><i class="fab fa-google-plus-g"></i></a>
-                        <a href=""><i class="fas fa-icons"></i></a>
+                    <p class="slide-in-right"> يقدم <span> مكتب الاستاذ </span> كافة الخدمات القانونية </p>
+                    <button class="btn wobble-hor-top  ">الاتصال بنا<i class="fas fa-info-circle"></i></button>
 
-                    </div>
                     <img class="d-block w-100 " src="img/intro-img-1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <p>يقدم <span> مكتب الاستاذ</span> ادق الاستشارات </p>
-                    <button class="btn  ">الاتصال بنا<i class="fas fa-info-circle"></i></button>
-                    <div class="  intro-social-links">
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-facebook-square"></i></a>
-                        <a href=""><i class="fab fa-google-plus-g"></i></a>
-                        <a href=""><i class="fas fa-icons"></i></a>
-
-                    </div>
+                    <p class="slide-in-right">يقدم <span> مكتب الاستاذ</span> ادق الاستشارات </p>
+                    <button class="btn wobble-hor-top ">الاتصال بنا<i class="fas fa-info-circle"></i></button>
                     <img class="d-block w-100 " src="img/intro-img-2.jpg" alt="Second slide">
 
-
-
                 </div>
-
             </div>
 
         </div>
@@ -109,9 +89,9 @@
 
 
     <!---Start Service-->
-    <section class="services-section container ">
-        <h2 class="services-section-header">الخدمات التي يقدمها المكتب</h2>
-        <p class="services-section-paragh">الخدمات التي يقدمها المكتب</p>
+    <section class="services-section container" id="servicesection">
+        <h2 class="services-section-header slide-in-right">الخدمات التي يقدمها المكتب</h2>
+        <p class="services-section-paragh slide-in-right">الخدمات التي يقدمها المكتب</p>
 
         <div class="services-boxs">
             <div class="row">
@@ -190,11 +170,9 @@
                     </div>
 
                     <div class="see-more-services">
-                        <a href="#" class="btn btn-warning"> لكافة الخدمات</a>
+                        <a href="#" class="btn btn-warning wobble-hor-top"> لكافة الخدمات</a>
 
                     </div>
-
-
 
 
                 </div>
@@ -205,9 +183,9 @@
     <!---End Service-->
 
     <!---Start  Team-->
-    <Section class=" team-section container-fluid">
-        <h3 class="team-section-header">من نحن</h3>
-        <p class="team-section-pargh">فريقنا</p>
+    <Section class=" team-section container-fluid" id="team">
+        <h3 class="team-section-header slide-in-right">من نحن</h3>
+        <p class="team-section-pargh  slide-in-right">فريقنا</p>
         <div class="team-section-boxs">
             <div class="row">
                 <div class="col-lg services-boxs-info">
@@ -215,11 +193,15 @@
                         <div class="card card border-primary bg-light slide-in-right">
                             <img class="card-img-top" src="img/team (1).jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">تاسيس الشركات </h5>
-                                <p class="card-text">تاسيس الشركات</p>
+                                <h5 class="card-title"> عضو 1 </h5>
+                                <p class="card-text"> عضو1</p>
                             </div>
                             <div class="card-footer">
-                                <a href="#" class="btn btn-primary">تفاصيل اكثر</a>
+
+                                <a href="mailto:" class="btn btn-primary"><i class="fas fa-envelope-square"></i>
+                                    الايميل</a>
+                                <a href="tel://0000000000000" class="btn btn-primary"><i class="fa fa-phone-square"
+                                        aria-hidden="true"></i> 000000</a>
 
                             </div>
                         </div>
@@ -227,45 +209,50 @@
                         <div class="card card border-primary  bg-light slide-in-right">
                             <img class="card-img-top" src="img/team (2).jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">القضايا و المنزاعات</h5>
-                                <p class="card-text">القضايا و المنزاعات القانونية</p>
+                                <h5 class="card-title">عضو 2</h5>
+                                <p class="card-text">عضو 2</p>
                             </div>
                             <div class="card-footer">
-                                <a href="#" class="btn btn-primary">تفاصيل اكثر</a>                                <a href="#" class="btn btn-primary">تفاصيل اكثر</a>
-                                <a href="#" class="btn btn-primary">تفاصيل اكثر</a>
+
+                                <a href="mailto:" class="btn btn-primary"><i class="fas fa-envelope-square"></i>
+                                    الايميل</a>
+                                <a href="tel://0000000000000" class="btn btn-primary"><i class="fa fa-phone-square"
+                                        aria-hidden="true"></i> 000000</a>
+
 
                             </div>
                         </div>
                         <div class="card card border-primary  bg-light slide-in-right">
                             <img class="card-img-top" src="img/team (3).jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">قضايا التعويضات</h5>
-                                <p class="card-text">قضايا التعوضيات و الاضرار</p>
+                                <h5 class="card-title">عضو 3</h5>
+                                <p class="card-text">عضو 3</p>
                             </div>
                             <div class="card-footer">
-                                <a href="#" class="btn btn-primary">تفاصيل اكثر</a>
+
+                                <a href="mailto:" class="btn btn-primary"><i class="fas fa-envelope-square"></i>
+                                    الايميل</a>
+                                <a href="tel://0000000000000" class="btn btn-primary"><i class="fa fa-phone-square"
+                                        aria-hidden="true"></i> 000000</a>
                             </div>
                         </div>
                         <div class="card card border-primary bg-light slide-in-right">
                             <img class="card-img-top" src="img/team (4).jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">القضايا العمالية </h5>
-                                <p class="card-text">القضايا العمالية</p>
+                                <h5 class="card-title">عضو4 </h5>
+                                <p class="card-text">عضو 4</p>
                             </div>
                             <div class="card-footer">
-                                <a href="#" class="btn btn-primary">تفاصيل اكثر</a>
+
+                                <a href="mailto:" class="btn btn-primary"><i class="fas fa-envelope-square"></i>
+                                    الايميل</a>
+                                <a href="tel://0000000000000" class="btn btn-primary"><i class="fa fa-phone-square"
+                                        aria-hidden="true"></i> 000000</a>
+
 
                             </div>
                         </div>
                     </div>
-
-
-
-
-                    
-
-
-
 
                 </div>
             </div>
@@ -273,6 +260,41 @@
     </Section>
 
     <!---End Team-->
+
+
+    <!---Start Contact -->
+    <section class="contact-section container-fluid" id="contact">
+        <h3 class=" slide-in-right">الاتصال بنا </h3>
+        <div class="row">
+
+            <div class="col-lg-6 contact-info">
+                <div class="address">
+                    <h4><i class="fas fa-map-signs" aria-hidden="true"></i>Location:</h4>
+                    <p> Egypt</p>
+                </div>
+
+                <div class="email">
+                    <h4><i class="fas fa-map-signs" aria-hidden="true"></i>Email</h4>
+                    <a href="mailto:">info</a>
+                </div>
+
+                <div class="phone-numbers">
+                    <h4><i class="fas fa-map-signs" aria-hidden="true"></i>Phone</h4>
+                    <ul>
+
+                        <li><a href="tel://0000000000000">00000000000000</a></li>
+                        <li><a href="tel://0000000000000">00000000000000</a></li>
+                        <li><a href="tel://0000000000000">00000000000000</a></li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!---End Contact-->
 
 
 
