@@ -264,7 +264,7 @@ body {
 /*Start Contact*/
 .contact-section {
     height: auto;
-    background-image: url('/img/contact-bg.jpg');
+    background-image: url('img/contact-bg.jpg');
     font-weight: bolder;
     background-size: cover;
     background-position: center fixed;
