@@ -135,6 +135,19 @@ body {
     text-align: center;
 }
 
+.card {
+}
+.card img{
+     margin: 0 auto;
+     border-radius:100px;
+     -webkit-border-radius:170px;
+     -moz-border-radius:100px;
+     -ms-border-radius:100px;
+     -o-border-radius:100px;
+     text-align: center;
+     justify-content: center;
+}
+
 .card:hover {
     box-shadow: 5px 5px 15px 5px #000000;
     border-radius: 5%;
