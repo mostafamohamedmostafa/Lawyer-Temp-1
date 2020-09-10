@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Amiri', serif;
+
+}
 
 /*Start Main Nav Styling*/
 .nav-section .navbar img{
@@ -77,13 +81,16 @@
 
 .carousel-item .intro-social-links {
     position: absolute;
-   top: 70%;
-   left:45%;
+    top: 70%;
+    left:45%;
     transform: translate(-00%, -40%);
     font-size: 2rem;
     font-weight: bolder;
     text-align: center;
-    
+    -webkit-transform: translate(-00%, -40%);
+    -moz-transform: translate(-00%, -40%);
+    -ms-transform: translate(-00%, -40%);
+    -o-transform: translate(-00%, -40%);
 }
 
 .carousel-item i {
@@ -96,3 +103,21 @@
 }
 
 /*End Intro Styling*/
+
+/*Start  Services Styling*/
+.services-section-header {
+    text-align: center;
+}
+.services-section-paragh{
+    text-align: center;
+}
+.card-deck{
+    margin: 2%;
+}
+.see-more-services {
+    text-align: center;
+}
+.see-more-services a{
+    font-size: xx-large;
+}
+/*End  Services Styling*/
