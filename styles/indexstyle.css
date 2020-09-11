@@ -28,13 +28,13 @@ body {
 .navbar-nav .nav-link:hover {
     color: black !important;
     animation:   2s ease infinite all;
-    -webkit-animation:   2s ease infinite all;
+    -webkit-animation:;
     border: #000000 2px solid;
     border-radius: 25%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
 }
 .nav-item{
     text-align:center;
@@ -173,6 +173,9 @@ body {
 
 .team-section-pargh {
     text-align: center;
+}
+.team-section a{
+    margin: 1%;
 }
 
 .card {
