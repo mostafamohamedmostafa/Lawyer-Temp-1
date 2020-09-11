@@ -332,15 +332,27 @@ body {
     background-repeat: no-repeat;
 
 }
+.contact-section h3{
+  color: white;
+}
+
+.contact-section h4{
+    color:cornflowerblue;
+  }
+  
+
 
 .contact-section h3:hover{
     transform: scale(1.1);
- 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 .contact-info {
     padding: 5%;
-    color: whitesmoke;
+    color:wheat;
 }
 
 
@@ -363,7 +375,7 @@ body {
 
 
 .contact-info a {
-    color: white;
+    color: wheat;
     font-weight: bold;
 }
 
