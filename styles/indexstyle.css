@@ -16,6 +16,48 @@ body {
     text-align: center;
 }
 
+.navbar-nav .nav-link {
+    font-size: 16px;
+    margin: 0.01%;
+    color: blue !important;
+    font-weight: bold;
+
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: black !important;
+    animation:   2s ease infinite all;
+    -webkit-animation:   2s ease infinite all;
+    border: #000000 2px solid;
+    border-radius: 25%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.nav-item{
+    text-align:center;
+}
+
+.nav-item .btn-style {
+    background-color: white;
+    color: #08526d;
+    border: #72757d 2px solid;
+}
+
+
+.nav-item .btn-style:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    border-color: tomato;
+}
+
 
 /*End Main Nav Styling*/
 
@@ -54,8 +96,8 @@ body {
     left: 40%;
     top: 40%;
     transform: translate(-00%, -40%);
-    color: white;
-    font-size: 4rem;
+    color:lavender;
+    font-size: 3rem;
     font-weight: bolder;
     -webkit-transform: translate(-00%, -40%);
     -moz-transform: translate(-00%, -40%);
@@ -109,6 +151,10 @@ body {
     text-align: center;
 }
 
+.moreservice{
+    text-align: center;
+}
+
 .services-section-paragh {
     text-align: center;
 }
@@ -116,14 +162,8 @@ body {
 .card-deck {
     margin: 2%;
 }
+ 
 
-.see-more-services {
-    text-align: center;
-}
-
-.see-more-services a {
-    font-size: xx-large;
-}
 
 /*End  Services Styling*/
 /*Start  Team Styling*/
