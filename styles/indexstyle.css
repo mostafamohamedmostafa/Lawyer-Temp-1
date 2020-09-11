@@ -174,10 +174,11 @@ body {
 .team-section-pargh {
     text-align: center;
 }
-.team-section a{
+
+.team-section .card-footer a{
+    text-align: center;
     margin: 1%;
 }
-
 .card {
 }
 .card img{
